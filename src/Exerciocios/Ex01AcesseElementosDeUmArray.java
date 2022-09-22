@@ -1,11 +1,11 @@
 package Exerciocios;
 
 public class Ex01AcesseElementosDeUmArray {
-    public int ImprimirElemento(int posicao, int[] conjunto){
+    public static int ImprimirElementoArray(int posicao, int[] conjunto){
         System.out.println(conjunto[posicao]);
         return conjunto[posicao];
     }
-    public int ImprimirUltimoElemento(int[] conjunto){
+    public static int ImprimirUltimoElementoArray(int[] conjunto){
         System.out.println(conjunto[conjunto.length-1]);
         return conjunto[conjunto.length-1];
     }
