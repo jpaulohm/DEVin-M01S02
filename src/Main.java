@@ -105,5 +105,10 @@ public class Main {
         System.out.printf("b)");
         Ex07Listas.ImprimeListaForEach(nomes);
 
+
+        //[M01S02] Ex 08 - Listas
+        List<Integer> numeros = Arrays.asList(0,2,88,56,33,42,67,3,9,0,2);
+        System.out.printf("8) %d", Ex08Listas.PrimeiraOcorrenciaMaiorQue(numeros,50));
+
     }
 }
