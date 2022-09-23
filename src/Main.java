@@ -93,5 +93,17 @@ public class Main {
 
         //System.out.println(lista);
         System.out.println(lista3x);
+
+
+        //[M01S02] Ex 07 - Listas
+        System.out.println("7)");
+
+        List<String> nomes = Arrays.asList("kirk", "spock", "scott", "mccoy", "sulu");
+
+        System.out.printf("a)");
+        Ex07Listas.ImprimeListaFor(nomes);
+        System.out.printf("b)");
+        Ex07Listas.ImprimeListaForEach(nomes);
+
     }
 }
