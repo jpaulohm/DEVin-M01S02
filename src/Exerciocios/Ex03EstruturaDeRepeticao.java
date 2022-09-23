@@ -31,4 +31,21 @@ public class Ex03EstruturaDeRepeticao {
         System.out.println(saldo);
         return saldo;
     }
+
+    public static int CertidaoNegativaDeDebito(int[] vetor){
+        int saldo = 0;
+        for (int i = 0; i < vetor.length; i++) {
+            saldo += vetor[i];
+        }
+        if (saldo<0){
+            System.out.println("Saldo Negativo");
+        } else if (saldo > 0) {
+            System.out.println("Saldo Positivo");
+        }else {
+            System.out.println("Saldo = 0");
+        }
+        return saldo;
+
+    }
+
 }

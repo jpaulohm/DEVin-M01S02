@@ -47,6 +47,8 @@ public class Main {
         System.out.printf("c)");
         Ex03EstruturaDeRepeticao.SomaElementos(extrato);
 
+        System.out.printf("d)");
+        Ex03EstruturaDeRepeticao.CertidaoNegativaDeDebito(extrato);
 
 
     }
