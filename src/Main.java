@@ -1,5 +1,8 @@
 import Exerciocios.*;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         //Começa exercicio [M01S02] Ex 01 - Acesse elementos de um Array
@@ -81,5 +84,14 @@ public class Main {
         Ex05EstruturaDeRepetiçãoECondicionais.Calcular(e);
         System.out.printf("f)");
         Ex05EstruturaDeRepetiçãoECondicionais.Calcular(f);
+
+        //[M01S02] Ex 06 - Listas
+        System.out.printf("6)");
+        List<Integer> lista = Arrays.asList(1,2,3,4);
+
+        List<Integer> lista3x = Ex06Listas.TriplicaLista(lista);
+
+        //System.out.println(lista);
+        System.out.println(lista3x);
     }
 }
