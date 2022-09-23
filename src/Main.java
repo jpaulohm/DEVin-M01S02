@@ -1,7 +1,4 @@
-import Exerciocios.Ex01AcesseElementosDeUmArray;
-import Exerciocios.Ex02AcesseElementosDeUmArrayMultidimensional;
-import Exerciocios.Ex03EstruturaDeRepeticao;
-import Exerciocios.Ex05EstruturaDeRepetiçãoECondicionais;
+import Exerciocios.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,6 +48,18 @@ public class Main {
         System.out.printf("d)");
         Ex03EstruturaDeRepeticao.CertidaoNegativaDeDebito(extrato);
 
+        //[M01S02] Ex 04 - Estrutura de Repetição e Condicionais
+        System.out.printf("4)");
+        int nroSorte = 25;
+        int sorteados[][] = {
+                { 1, 44,  6,  2, 45, 60},
+                {10, 21, 55, 25, 34, 44},
+                { 8, 18, 28, 29, 55, 59},
+                {60, 25, 11, 34,  6,  9},
+                {55, 43, 25, 12,  7, 11}
+        };
+
+        Ex04EstruturaDeRepetiçãoECondicionais.RepeticoesEmArray2D(sorteados,nroSorte);
 
         //[M01S02] Ex 05 - Estrutura de Repetição e Condicionais
         System.out.println("5)");
