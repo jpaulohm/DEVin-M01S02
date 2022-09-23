@@ -1,6 +1,7 @@
 import Exerciocios.Ex01AcesseElementosDeUmArray;
 import Exerciocios.Ex02AcesseElementosDeUmArrayMultidimensional;
 import Exerciocios.Ex03EstruturaDeRepeticao;
+import Exerciocios.Ex05EstruturaDeRepetiçãoECondicionais;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,5 +52,25 @@ public class Main {
         Ex03EstruturaDeRepeticao.CertidaoNegativaDeDebito(extrato);
 
 
+        //[M01S02] Ex 05 - Estrutura de Repetição e Condicionais
+        System.out.println("5)");
+        int[] a = {56, 65, 64, -3, 23, 42, -15, 65, 14, 32, 78, 70, 47};
+        int[] b = {1};
+        int[] c = {1, -1};
+        int[] d = null;
+        int[] e = {-2,-2,-2,-2};
+        int[] f = {20,10, 30};
+        System.out.printf("a)");
+        Ex05EstruturaDeRepetiçãoECondicionais.Calcular(a);
+        System.out.printf("b)");
+        Ex05EstruturaDeRepetiçãoECondicionais.Calcular(b);
+        System.out.printf("c)");
+        Ex05EstruturaDeRepetiçãoECondicionais.Calcular(c);
+        System.out.printf("d)");
+        Ex05EstruturaDeRepetiçãoECondicionais.Calcular(d);
+        System.out.printf("e)");
+        Ex05EstruturaDeRepetiçãoECondicionais.Calcular(e);
+        System.out.printf("f)");
+        Ex05EstruturaDeRepetiçãoECondicionais.Calcular(f);
     }
 }
