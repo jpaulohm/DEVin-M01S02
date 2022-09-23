@@ -1,5 +1,6 @@
 import Exerciocios.Ex01AcesseElementosDeUmArray;
 import Exerciocios.Ex02AcesseElementosDeUmArrayMultidimensional;
+import Exerciocios.Ex03EstruturaDeRepeticao;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,6 +32,22 @@ public class Main {
         Ex02AcesseElementosDeUmArrayMultidimensional.ImprimirElementoArray2D(3,1,notas);
         System.out.printf("c)");
         Ex02AcesseElementosDeUmArrayMultidimensional.SomaP1(notas);
+
+        //Comeca [M01S02] Ex 03 - Estrutura de Repetição
+        System.out.println("3)");
+
+        int[] extrato = { 100, -35, -15, -5, 55, -20 };
+
+        System.out.printf("a)");
+        Ex03EstruturaDeRepeticao.ImprimirElementos(extrato);
+
+        System.out.printf("b)");
+        Ex03EstruturaDeRepeticao.ImprimirElementosReverso(extrato);
+
+        System.out.printf("c)");
+        Ex03EstruturaDeRepeticao.SomaElementos(extrato);
+
+
 
     }
 }
